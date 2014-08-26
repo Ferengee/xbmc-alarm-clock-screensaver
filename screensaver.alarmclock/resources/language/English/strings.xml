@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+  <string id="92109">Alarm Music folder</string>
+  <string id="92110">Alarm</string>
+  <string id="92111">Display Color</string>
+  <string id="92112">Hour</string>
+  <string id="92113">Minute</string>
+  <string id="92114">Color Alpha</string>
+  <string id="92115">Color Red</string>
+	<string id="92116">Color Green</string>
+	<string id="92117">Color Blue</string>
+  <string id="92118">Shadow Alpha</string>
+	<string id="92119">Shadow Red</string>
+	<string id="92120">Shadow Green</string>
+  <string id="92121">Shadow Blue</string>
+</strings>

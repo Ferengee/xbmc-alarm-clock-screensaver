@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting label="92110" type="lsep"/>
+    <setting id="alarm_hour" type="enum" label="92112" default="06" values="00|01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24"  />
+    <setting id="alarm_minute" type="enum" label="92113" default="00" values="00|01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58|59"  />
+  
+    <setting id="alarm_music" label="92109" type="folder" source="auto" option="writeable"/>
+    <setting label="92111" type="lsep"/>
+
+    <setting id="setting_alpha_color" type="slider" label="92114" default="255" range="0,255" option="int"  />
+    <setting id="setting_red_color" type="slider" label="92115" default="255" range="0,255" option="int"  />
+    <setting id="setting_green_color" type="slider" label="92116" default="255" range="0,255" option="int"  />
+    <setting id="setting_blue_color" type="slider" label="92117" default="255" range="0,255" option="int"  />
+    
+</settings>
