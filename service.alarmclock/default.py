@@ -9,7 +9,7 @@ while (not xbmc.abortRequested):
   time.sleep(1)
 
   
-  alarmtime = "%s:%s" % (addon.getSetting('alarm_hour'), addon.getSetting('alarm_minute'))
+  alarmtime = "%s:%s" % (addon.getSetting('alarm_hour').zfill(2), addon.getSetting('alarm_minute').zfill(2))
   xbmc.log("alarm clock service tick, alarm at: %s" % alarmtime);
   now = datetime.datetime.today()
   if now.strftime("%H:%M") == alarmtime:
