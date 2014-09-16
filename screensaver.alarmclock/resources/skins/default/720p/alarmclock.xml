@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <window>
+  <backgroundcolor>0xff00ff00</backgroundcolor> 
     <controls>
-        <control type="image" id="0">
-            <description>Clock Background</description>
-            <posx>0</posx>
-            <posy>0</posy>
-            <width>1280</width>
-            <height>720</height>
-            <texture>clock.jpg</texture>
-        </control>
-
+       
     </controls>
 </window>

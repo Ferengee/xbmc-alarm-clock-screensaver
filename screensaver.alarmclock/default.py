@@ -30,16 +30,3 @@ if __name__ == '__main__':
     del screensaver_gui
     del player
     sys.modules.clear()
- 
-
-  
-#  def onPlayBackPaused(self):
-#      if xbmc.Player().isPlayingVideo():
-#          os.system("wget --spider 'http://10.10.0.6:49451/data_request?id=lu_action&output_format=xml&serviceId=urn:micasaverde-com:serviceId:HomeAutomationGateway1&action=RunScene&SceneNum=18'")
-#  
-#  def onPlayBackResumed(self):
-#      if xbmc.Player().isPlayingVideo():
-#          os.system("wget --spider 'http://10.10.0.6:49451/data_request?id=lu_action&output_format=xml&serviceId=urn:micasaverde-com:serviceId:HomeAutomationGateway1&action=RunScene&SceneNum=19'")
-  
-
-
